@@ -1,4 +1,22 @@
 h1{
-  border-color: #d3e644;
-  border-style: dashed;
+  border-color: #338be8;
+  border-style:double;
+  color: #d033e8;
+}
+
+.stand-out {
+  color:red;
+  font-weight: bold;
+}
+
+.name {
+  font-family: 'Courier New', Courier, monospace;
+  color:deeppink
+}
+
+img {
+  width: 400px;
+  border-style:groove;
+  border-radius: 20px;
+  border-color: #d033e8;
 }
