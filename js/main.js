@@ -1,12 +1,13 @@
 window.onload = loaded;
+let helloButton = document.getElementsByClassName("hello");
 
 /**
  * Simple Function that will be run when the browser is finished loading.
  */
 function loaded() {
     // Assign to a variable so we can set a breakpoint in the debugger!
-    const hello = sayHello();
-    console.log(hello);
+    // const hello = sayHello();
+    // console.log(hello);
 }
 
 /**
@@ -14,5 +15,11 @@ function loaded() {
  * @return {string} the string hello
  */
 export function sayHello() {
-    return 'hello';
+    alert('hello');
+}
+
+if(helloButton != null) {
+    helloButton.addEventListener('click', function(e) {
+        sayHello();
+    })
 }
