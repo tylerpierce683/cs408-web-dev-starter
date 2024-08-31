@@ -1,3 +1,4 @@
+//window.onload = loaded;
 let helloButton = document.getElementById("hello").onclick = sayHello;
 
 /**
@@ -5,5 +6,6 @@ let helloButton = document.getElementById("hello").onclick = sayHello;
  * @return {string} the string hello
  */
 export function sayHello() {
-    alert('hello');
+    alert('Hello fellow CS 408 Classmates! :)');
+    return 'hello';
 }
