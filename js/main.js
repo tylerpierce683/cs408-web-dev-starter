@@ -1,5 +1,5 @@
 window.onload = loaded;
-let helloButton = document.getElementsByClassName("hello");
+let helloButton = document.getElementById("hello").onclick = sayHello;
 
 /**
  * Simple Function that will be run when the browser is finished loading.
@@ -15,11 +15,6 @@ function loaded() {
  * @return {string} the string hello
  */
 export function sayHello() {
+    console.log("got here");
     alert('hello');
-}
-
-if(helloButton != null) {
-    helloButton.addEventListener('click', function(e) {
-        sayHello();
-    })
 }

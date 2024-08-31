@@ -20,3 +20,20 @@ img {
   border-radius: 20px;
   border-color: #d033e8;
 }
+
+#hello {
+  border-color: cyan;
+  background-color: black;
+  border-radius: 8px;
+  color: cyan;
+}
+
+#hello:hover {
+  background-color: cyan;
+  color: black;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
