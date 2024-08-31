@@ -1,20 +1,9 @@
-window.onload = loaded;
 let helloButton = document.getElementById("hello").onclick = sayHello;
 
 /**
- * Simple Function that will be run when the browser is finished loading.
- */
-function loaded() {
-    // Assign to a variable so we can set a breakpoint in the debugger!
-    // const hello = sayHello();
-    // console.log(hello);
-}
-
-/**
- * This function returns the string 'hello'
+ * This function alerts the user with message 'hello'
  * @return {string} the string hello
  */
 export function sayHello() {
-    console.log("got here");
     alert('hello');
 }
